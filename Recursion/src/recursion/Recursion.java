@@ -60,25 +60,6 @@ public class Recursion
         System.out.println(result);
         return result;
     }
-    
-    public int fibonacci( int n)
-    {
-        int f;
-        if (n == 0)
-        {
-            return 0;
-        }
-        else if ( n == 1)
-        {
-            return 1;
-        }
-        else 
-        {
-            
-            f = fibonacci (n - 1) + fibonacci (n - 2);
-            System.out.println(f);
-            return f;
-        }
                 
     }
     
